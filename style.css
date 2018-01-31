@@ -1,0 +1,165 @@
+html, body {
+margin: auto;
+padding: 0;
+width: 100%;
+text-decoration: none;
+font-family: 'inconsolata';
+font-size: 14pt;
+font-weight: lighter;
+}
+
+nav {
+  width: 100%;
+margin: auto;
+text-align: center;
+position: static;
+top: 10px;
+}
+nav img {
+  width: 5%;
+}
+nav ul {
+  display: block;
+  width: 50%;
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+}
+nav ul li {
+display: inline-block;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 16pt;
+  text-align: center;
+  line-height: 50px;
+  padding: 14px 16px;
+  font-family: 'inconsolata';
+}
+nav a:hover{
+  color: #7B9A4A
+}
+.banner img {
+  width: 100%;
+}
+footer {
+  background-color: #B4C889;
+  text-align: center;
+  height: 50px;
+  font-size: 16px;
+  font-weight: lighter;
+  padding: 30px 0px 0px 20px;
+}
+
+.slogan {
+  font-family: 'inconsolata';
+  text-align: center;
+  line-height: 50px;
+  font-size: 16pt;
+  text-decoration: none;
+  color: #46562C;
+}
+
+.row {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  color: #000000;
+}
+.third {
+  width: 300px;
+  height: 200px;
+  display: inline-block;
+  padding: 0px 20px;
+}
+.bottons {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.bottons img {
+  width: 50%;
+}
+.portfolie {
+  font-family: 'inconsolata';
+  text-align: center;
+  line-height: 50px;
+  font-size: 16pt;
+  text-decoration: none;
+  color: #46562C;
+}
+
+.content-left-half {
+  text-align: right;
+  display: inline-block;
+  font-family: 'inconsolata';
+  text-transform: uppercase;
+  color: #000000;
+  float: left;
+  font-size: medium;
+}
+.content-right-half {
+  text-align: left;
+  display: inline-block;
+  font-family: 'inconsolata';
+  color: #000000;
+  float: right;
+  font-size: medium;
+}
+.box_greenone {
+  background-color: #B4C889;
+  text-align: center;
+  display: block;
+}
+.box_greenone img {
+  width:350px;
+}
+.box_whiteone {
+  background-color: #FFFFFF;
+  text-align: center;
+  display: block;
+}
+.box_whiteone img {
+  height: 300px;
+}
+.box_greentwo {
+  background-color: #B4C889;
+  text-align: center;
+  display: block;
+}
+.box_greentwo img {
+  width: 250px;
+}
+.box_whitetwo {
+  background-color: #FFFFFF;
+  text-align: center;
+  display: block;
+}
+.contentgrid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin: auto;
+  height: 500px;
+}
+.contentgrid_item {
+  background-position: center;
+  background-size: contain;
+  flex: auto;
+  text-align: center;
+}
+
+.ommig {
+  display: block;
+  text-align: center;
+}
+.ommig img {
+  width: 30%
+}
+.kontakt {
+  text-align: center;
+}
